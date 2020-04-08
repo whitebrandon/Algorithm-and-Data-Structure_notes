@@ -62,11 +62,11 @@ The strategy the first player took is a type of search called [linear search](ht
 The specificity of how this is defined is what makes it an algorithm. An follows a certain set of guidelines and will use the same steps to solve the problem each time it's faced.
 
 1. Guideline 1: An algorithm must have a clear defined problem statement, input and output.
-  * For linear search: input = series of values
-  * For linear search: output = value matching the target value
+    * For linear search: input = series of values
+    * For linear search: output = value matching the target value
 2. Guideline 2: The steps in the algorithm must be in a very specific/particular order.
 3. Guideline 3: Each step in the algorithm needs to be distinct.
-  * Each step should not be able to be broken down further into substeps.
+    * Each step should not be able to be broken down further into substeps.
 4. Guideline 4: The algorithm should produce a result.
 5. Guildine 5: The algorithm should complete in a finite amount of time.
  
