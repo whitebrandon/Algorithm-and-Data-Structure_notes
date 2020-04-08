@@ -23,7 +23,7 @@ PY CODE by Brandon White | white.brandonsean@gmail.com
 
 Learning about algorithms gives you a deeper understanding about *complexity* and *efficiency* in programming.
 
-## Guess the Number (An Example)
+## GUESS THE NUMBER (AN EXAMPLE)
 
 ### The Scenario
 Two people are playing a number guessing game (after each guess, the player is told whether the guess is correct, too low, or too high). The objective is to take the least amount of tries to guess the number.
@@ -43,7 +43,31 @@ Two people are playing a number guessing game (after each guess, the player is t
     * In the same scenario, but with a range of 1 to 100, and the value falling at the end of that range (100), the first player needs one-hundred tries to get the correct answer, while the second player only needs seven (50, 75, 88, 94, 97, 99, 100).
   * If we pretend that the number of tries is the number of *seconds* it takes the first player and the second player to run through their attempts, this would be a good estimate of how *fast* their solutions are.
 
+## DEFINING AN ALGORITHM
 
+The approaches taken by the first player and second player in the number guessing game are examples of *searching* algorithms.
 
+### Test Case:
+  Facebook (as of December of 2019) had [2.45 billion active users](https://blog.hootsuite.com/facebook-demographics/). Let's say you're traveling in a different company and meet someone you want to add on Facebook. You go into the searchbar and type out that person's name. Facebook has to search across 2.45 billion records to find the person you're looking for. What if you searched for a friend and took a couple of hours for Facebook to comb through their records to show you your friend?
+
+### Linear Search
+The strategy the first player took is a type of search called [linear search](https://en.wikipedia.org/wiki/Linear_search) (or sequential search, or simple search).
+
+  1. Start at the beginning of a list or range of values
+  2. Compare the current value to the target value.
+  3. If the current value is the target value, we're done.
+  4. If not, we'll move sequentially to next value in range, and repeat step 2.
+  5. If the end of the list is reached, then the target value is not in the list. 
+
+The specificity of how this is defined is what makes it an algorithm. An follows a certain set of guidelines and will use the same steps to solve the problem each time it's faced.
+
+1. Guideline 1: An algorithm must have a clear defined problem statement, input and output.
+  * For linear search: input = series of values
+  * For linear search: output = value matching the target value
+2. Guideline 2: The steps in the algorithm must be in a very specific/particular order.
+3. Guideline 3: Each step in the algorithm needs to be distinct.
+  * Each step should not be able to be broken down further into substeps.
+4. Guideline 4: The algorithm should produce a result.
+5. Guildine 5: The algorithm should complete in a finite amount of time.
  
 
