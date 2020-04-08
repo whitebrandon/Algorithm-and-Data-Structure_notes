@@ -73,5 +73,25 @@ The specificity of how this is defined is what makes it an algorithm. An follows
 
 ### Binary Search
 The strategy the second player took is a type of search called [binary search](https://en.wikipedia.org/wiki/Binary_search_algorithm) (or half-interval search, logarithmic search, or binary chop).
+
+## EVALUATING LINEAR SEARCH
+
+### Correctness and Efficiency
+  1. Correctness: An algorithm is deemed correct if **1**) on every run of the agorithm, against all possible values in the input data, we always get the output we expect (ie. if given an input range of 1 to 10, with a target value of 5, the algorithm should always return 5), and if **2**) for any possible input, the algorithm always terminates, or ends.
+    * If these two are not true, then the algorithm isn't correct.
+    * In an algorithm textbook, a search for the term *correctness* would lead to mathematical theory. Traditionally, algorithm correctness is proved by mathematical induction (which involves writing what is called a specification and correctness proof).
+
+  2. Efficiency: helps us solve problems faster, and delivers better end user experience in a variety of fields
+    1. Time Complexity - a measure of the **running time** of an algorithm.
+      * Running Time (definition by example): the run times for the first player in the number guessing game's were {round-one: 3 tries}, {round-two: 10 tries}, {round-three: 100 tries}.
+    2. Space Complexity - a measure of the storage taken up by an algorithm.
+
+    Good algorithms need to balance between the two to be useful.
+
+### Worst-Case-Scenario
+
+Analyzing how an algorithm runs during its worst-case scenario is useful becasue it indicates that the algorithm will never perform worse than that.
+
+![alt text](images/bigOnot-chart.png "Big O Notation Chart")
  
 
