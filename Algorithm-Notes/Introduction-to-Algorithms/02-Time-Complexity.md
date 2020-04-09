@@ -65,7 +65,10 @@ _n represents the number of values in the series_
   Binary search requires that the inputs be sorted, and sorting algorithms have varying complexities. For this reason (in practice), linear search ends up being more performant up to a certain value of n.
 
 ### Even More Big O Variables
-  * O(n)
+  * O(n<sup>2</sup>) - Quadratic Time - For any small increase in the value of n, the worst case run time increases significantly.
+    * An example. If you were to tell your friend to do as many pushups as they could in thirty seconds and you would match each rep with a set of pushups of your own and each set would match the same amount of reps as your one set. If your friend did five pushups in thirty seconds, you'd have to do twenty-five (five sets of five reps). If your friend did just one more pushup (six), you'd have to do eleven more pushups (thirty-six).  
+  * O(n<sup>3</sup>) - Cubic Time - For any small increase in the value of n, the worst case run time increases significantly.
+    * Same example as above, but this time if your friend does five pushups, your're doing five sets of five pushups for five rounds (one hundred twenty-five) and if your friend does six, you're doing two hundred sixteen. 
 
 ## QUASILINEAR TIME
 
