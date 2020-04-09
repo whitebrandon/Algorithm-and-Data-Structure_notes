@@ -29,7 +29,7 @@ When measuring the **efficiency** of an algorithm we always want to evaluate how
 | 100000 | 17 |
 | 1000000 | 20 |
 
-####<i class=­"­ico­n-f­ile­"­></­i> n represents the number of values in the series
+_n represents the number of values in the series_
 
 ### Order of growth: a measure of how much the time taken to execute operations increases as the input size increases (also known as growth rate).
   * Different algorithms grow at different rates, and by evaluating their growth rates, we get a much better picture of their performance.
