@@ -42,12 +42,13 @@ _n represents the number of values in the series_
     * Ex. If it takes 4 tries to find a number using binary search when n is 10. How long does it take when n is 10 million?
       When we use big O for this, the variable used (see Big O variables below) distills that information down so that by reading the variable, you get a big picture view without having to run through data points and graphs.
   * The last part of the big O defintion ("a function of size") means that big O measures complexity as the input size grows. **n** represents the size of the data set.
-  * big O is also referred to the "Uppder Bounds" of the algorithm, which means big O measures how the algorithm performs in the worst case scenario.
+  * big O is also referred to the "Upper Bounds" of the algorithm, which means big O measures how the algorithm performs in the worst case scenario.
 
 ### Big O Variables
-  * O(n) - Linear Search - The run time is equal to the size of the data set (if n is 5 run time is 5, is n is 1000 run time is 1000)
-  * O(log n) - Binary Search - Logarithmic Time - The run time increases logarithmically as the size of the data set increases.
-    * A logarithm is the inverse(opposite) of an exponent. An example of a logarithms is log_2(8) = 3. The base is 2, the argument is 8, and the answer is 3. You divide the argument **8** by the base of **2**, **3** times before you get 1, the base. 8 / 2 (**1st x**) = 4 / 2 (**2nd x**) = 2 / 2 (**3rd x**).
+  * O(n) - Linear Search - The worst case run time is equal to the size of the data set (if n is 5 run time is 5, is n is 1000 run time is 1000)
+    * Any time you know a problem involves reading every item in a list, then that it a linear run time.
+  * O(log n) - Binary Search - Logarithmic Time - The worst case run time increases logarithmically as the size of the data set increases.
+    * A logarithm is the inverse(opposite) of an exponent. An example of a logarithms is $$log_{2}(8)$$ = 3. The base is 2, the argument is 8, and the answer is 3. You divide the argument **8** by the base of **2**, **3** times before you get 1, the base. 8 / 2 (**1st x**) = 4 / 2 (**2nd x**) = 2 / 2 (**3rd x**).
     * In binary search, the base is 2. So log n could be written as log_2(n). So if n (size of data set) is 8, then the worst case scenario is it will take 3 tries to find the value. If n is 16, then worst case scenario is 4 tries. If n is 10,000, then the worst case scenario is 13.28 tries (so either 13 or 14 tries).
     * Logarithmic run times are called sublinear, and are preferred to linear run times. You can calculate (log n) like so: ((ln(n)) / (ln(2)). 
 
@@ -57,9 +58,14 @@ _n represents the number of values in the series_
 ### More Big O Variables
   * O(1) - Constant Time - The runtime of the algorithm is independent of the size of the data set. If n is 1 or 1 million it takes the same amount of time to execute the algorithm. 
     * An example of this would be reading the element from a known position in an array (ie. If the days of the week were placed in an array, with Sunday being at index 0, selecting the value at the index of 3 would not change even if you were to switch the array to one containing the months in the year as opposed to the days in a week. We're just selectin whatever is at index 3, _Wednesday_ and _April_).
-  * 
 
 ## LINEAR & QUADRATIC TIME
+
+### Why Ever Use Linear Search Over Binary Search?
+  Binary search requires that the inputs be sorted, and sorting algorithms have varying complexities. For this reason (in practice), linear search ends up being more performant up to a certain value of n.
+
+### Even More Big O Variables
+  * O(n)
 
 ## QUASILINEAR TIME
 
