@@ -1,0 +1,20 @@
+# INTRO TO DATA STRUCTURES | PART TWO: Building a Linked List
+
+a COURSE BY TREEHOUSE
+taught by Pasan Premaratne
+
+PY CODE by Brandon White | white.brandonsean@gmail.com
+
+## WHAT IS A LINKED LIST?
+
+## SINGLY AND DOUBLY LINKED LISTS
+
+## ADDING NODES TO A LINKED LIST
+
+## IMPLEMENTING SEARCH
+
+## INSERTING A NODE
+
+## REMOVING A NODE
+
+## LINKED LIST OPERATIONS

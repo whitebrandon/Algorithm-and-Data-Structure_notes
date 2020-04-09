@@ -1,4 +1,4 @@
-# INTRO TO ALGORITHMS
+# INTRO TO ALGORITHMS | PART ONE: Playing a Counting Game
 
 a COURSE BY TREEHOUSE
 taught by Pasan Premaratne

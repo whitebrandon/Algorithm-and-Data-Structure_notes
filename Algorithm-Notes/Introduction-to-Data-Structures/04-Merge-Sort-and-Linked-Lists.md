@@ -1,0 +1,18 @@
+# INTRO TO DATA STRUCTURES | PART FOUR: Merge Sort and Linked Lists
+
+a COURSE BY TREEHOUSE
+taught by Pasan Premaratne
+
+PY CODE by Brandon White | white.brandonsean@gmail.com
+
+## THE MERGE FUNCTION
+
+## THE DIVIDE STEP
+
+## THE CONQUER STEP
+
+## EVALUATING THE RUNTIME
+
+## IMPLEMENTING MERGE SORT ON LINKED LISTS
+
+## RECAP
