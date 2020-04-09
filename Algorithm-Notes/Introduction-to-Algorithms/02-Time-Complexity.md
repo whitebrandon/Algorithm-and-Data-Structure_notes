@@ -48,8 +48,8 @@ _n represents the number of values in the series_
   * O(n) - Linear Search - The worst case run time is equal to the size of the data set (if n is 5 run time is 5, is n is 1000 run time is 1000)
     * Any time you know a problem involves reading every item in a list, then that it a linear run time.
   * O(log n) - Binary Search - Logarithmic Time - The worst case run time increases logarithmically as the size of the data set increases.
-    * A logarithm is the inverse(opposite) of an exponent. An example of a logarithms is log_<sub>2<sub>(8) = 3. The base is 2, the argument is 8, and the answer is 3. You divide the argument **8** by the base of **2**, **3** times before you get 1, the base. 8 / 2 (**1st x**) = 4 / 2 (**2nd x**) = 2 / 2 (**3rd x**).
-    * In binary search, the base is 2. So log n could be written as log_2(n). So if n (size of data set) is 8, then the worst case scenario is it will take 3 tries to find the value. If n is 16, then worst case scenario is 4 tries. If n is 10,000, then the worst case scenario is 13.28 tries (so either 13 or 14 tries).
+    * A logarithm is the inverse(opposite) of an exponent. An example of a logarithms is log<sub>2</sub>(8) = 3. The base is 2, the argument is 8, and the answer is 3. You divide the argument **8** by the base of **2**, **3** times before you get 1, the base. 8 / 2 (**1st x**) = 4 / 2 (**2nd x**) = 2 / 2 (**3rd x**).
+    * In binary search, the base is 2. So log n could be written as log<sub>2</sub>(n). So if n (size of data set) is 8, then the worst case scenario is it will take 3 tries to find the value. If n is 16, then worst case scenario is 4 tries. If n is 10,000, then the worst case scenario is 13.28 tries (so either 13 or 14 tries).
     * Logarithmic run times are called sublinear, and are preferred to linear run times. You can calculate (log n) like so: ((ln(n)) / (ln(2)). 
 
 
