@@ -72,6 +72,40 @@ _n represents the number of values in the series_
 
 ## QUASILINEAR TIME
 
+### Even EVEN More Big O Variables
+  * O(n log n) - Quasilinear Time - Given a data set of size n, the algorithm executes a number of operations where each operation runs in <kbd>log n</kbd>(logarithmic) time.
+    * Found in Sorting Algorithms (ie. Merge Sort)
+
 ## EXPONENTIAL TIME
 
+### Polynomial Run Times
+  * O(n<sup>k</sup>): An algorithm is considered to have a polynomial run time if, for a given value of n, it's worst case run time is in the form of n raise to the k power. Examples of this are O(n<sup>2</sup>) and O(n<sup>3</sup>). Algorithms with polynomial run times are considered efficient. All of the above run times are polynomal run times.
+
+  _k is the nummber of operations_
+
+### Exponential Run Times
+  * O(k<sup>n</sup>): A run time where the number of operations increases exponentially as the size of the data set increases. Exponential run times are considered inefficient.
+    * Brute Force Algorithm:
+      * Lock example: A lock with two dials (each dial has a range from 0 to 9 (inclusive of 0 and 9). The lock would have 100 possible combinations. 10<sup>2</sup> is the run time, because there are ten values on each dial, raised to two dials. With just one more dial, the run time is 10<sup>3</sup>, or 1,000 possible combinations.
+
+### Combinatorial or Factorial Run Times
+  * O(n!): Run times where as the size of n increases, the number of operations increases by n! where n! is the factorial of n.
+    A factorial works like this: 5! = 5 * 4 * 3 * 2 * 1 = 120, 6! = 6 * 5 * 4 * 3 * 2 * 1 = 720
+    * Traveling Salesman Problem: Given a list of cities and a distance between each pair of cities what is the shortest possible route that visits each city and returns to the origin city.
+      * With 3 cities, we have six routes. With 4 cites, we have twenty-four routes. With 5 cities, we have one-hundred twenty routes.
+
 ## DETERMINING COMPLEXITY
+
+### How Do We Determine What the Worst Case Complexity of an Algorithm Is?
+
+* Each step in an algorithm can have a different run time.
+
+Binary Search Analysis (Steps)
+
+  1. Determine the middle position of the list. (Constant Time - O(1))
+  2. Compare the element in the middle position to the target element. (Constant Time - O(1))
+  3. Current element matches target element (Best Case Scenario).
+    * In the best case scenario, binary search's run time is constant time.
+  4. If we don't match, split list into sublists. (Logarithmic Time - O(log n))
+
+  The algorithm has, as its upper bound, the same run time as the **least** efficient step in the algorithm.
