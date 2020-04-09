@@ -93,7 +93,7 @@ The strategy the second player took is a type of search called [binary search](h
 
 Analyzing how an algorithm runs during its worst-case scenario is useful becasue it indicates that the algorithm will never perform worse than that.
 
-![alt text](images/bigOnot-chart.png "Big O Notation Chart")
+![alt text](../../images/bigOnot-chart.png "Big O Notation Chart")
  
 ## EVALUATING BINARY SEARCH
 
