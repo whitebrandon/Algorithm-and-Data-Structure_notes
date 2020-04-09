@@ -66,7 +66,7 @@ _n represents the number of values in the series_
 
 ### Even More Big O Variables
   * O(n<sup>2</sup>) - Quadratic Time - For any small increase in the value of n, the worst case run time increases significantly.
-    * An example. If you were to tell your friend to do as many pushups as they could in thirty seconds and you would match each rep with a set of pushups of your own and each set would match the same amount of reps as your one set. If your friend did five pushups in thirty seconds, you'd have to do twenty-five (five sets of five reps). If your friend did just one more pushup (six), you'd have to do eleven more pushups (thirty-six).  
+    * An example. If you were to tell your friend to do as many pushups as they could in thirty seconds and you would match each rep with a set of pushups of your own and each set would match the same amount of reps as your friend's one set. If your friend did five pushups in thirty seconds, you'd have to do twenty-five (five sets of five reps). If your friend did just one more pushup (six), you'd have to do eleven more pushups (thirty-six).  
   * O(n<sup>3</sup>) - Cubic Time - For any small increase in the value of n, the worst case run time increases significantly.
     * Same example as above, but this time if your friend does five pushups, your're doing five sets of five pushups for five rounds (one hundred twenty-five) and if your friend does six, you're doing two hundred sixteen. 
 
@@ -79,7 +79,7 @@ _n represents the number of values in the series_
 ## EXPONENTIAL TIME
 
 ### Polynomial Run Times
-  * O(n<sup>k</sup>): An algorithm is considered to have a polynomial run time if, for a given value of n, it's worst case run time is in the form of n raise to the k power. Examples of this are O(n<sup>2</sup>) and O(n<sup>3</sup>). Algorithms with polynomial run times are considered efficient. All of the above run times are polynomal run times.
+  * O(n<sup>k</sup>): An algorithm is considered to have a polynomial run time if, for a given value of n, it's worst case run time is in the form of n raised to the k power. Examples of this are O(n<sup>2</sup>) and O(n<sup>3</sup>). Algorithms with polynomial run times are considered efficient. All of the above run times are polynomal run times.
 
   _k is the nummber of operations_
 
