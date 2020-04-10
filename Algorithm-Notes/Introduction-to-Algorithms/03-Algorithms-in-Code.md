@@ -7,13 +7,17 @@ PY CODE by Brandon White | white.brandonsean@gmail.com
 
 ## LINEAR SEARCH IN CODE
 
-"""def linear_search(list, target):
-
+"""
+def linear_search(list, target):
+    '''
+    Returns the index position of the target if found, else returns None
+    '''
 
     for i in range(0, len(list)):
         if list[i] == target:
             return i
-    return None"""
+    return None
+"""
 
 ## BINARY SEARCH IN CODE
 
