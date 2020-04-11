@@ -24,7 +24,7 @@ Space complexity is a measure of how much working storage, or **extra** storage,
     * This is because each time the binary search function is called recursively, the computer has to store in its memory a new sublist in addition to the original list.
       * This depends on the programming language (see [Tail Optimization](https://en.wikipedia.org/wiki/Tail_call)) 
       
-- - 
+- - -
 ## RECAP
 
 1. Algorithmic thinking is an approach to problem solving that involves breaking a problem down into a clearly defined input and output, along with a distinct set of steps that solves the problem going from input to output.
