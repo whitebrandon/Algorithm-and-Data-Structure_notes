@@ -54,7 +54,11 @@ Blocks of memory situated right beside each other with no gaps.
 
 In a _noncontiguous_ data structure, the structure stores a values as well as a **reference** to where the next value is.  
 To retrieve that next value the langage has to follow that reference (pointer) to the next block of memeory.  
-This adds overhead which increases the runtime of certain operations. 
+This adds overhead which increases the runtime of common operations.
+
+* In languages where arrays are homogeneous, when an array is created, **because the value is know to the language compiler**, the language can choose a contiguous block of memory that fits the arrays size and values created.
+
+* In languages where arrays are heterogeneous, when an array is created, the language allocates contiguous memory and storing in it, not the values, but a reference to the value that's stored elsewhere in memory. 
 
 ## ARRAY CHARACTERISTICS AND STORAGE
 
