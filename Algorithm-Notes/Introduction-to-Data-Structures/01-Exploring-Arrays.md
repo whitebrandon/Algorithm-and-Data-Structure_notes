@@ -104,6 +104,22 @@ The length of the array here is actually 10, even through there are only 2 eleme
 
 ## ACCESSING A VALUE IN AN ARRAY
 
+Regardless of the kind of data structure you work with, all data structures are expected to carry out four kinds of operations at minimum. 
+  1. Access and read values stored in the structure
+  2. Search for an arbitrary value
+  3. Insert values at any point into the sturcure
+  4. Delete the structure as well as values in structure
+
+### Access Elements
+
+  Elements in an array are identified using a value known as an index, which is used to access and read the value.
+    1. Most programming languages follow a zero-based numbering system when it comes to arrays. (the first value is equal to zero, not 1)
+
+  Generally speaking, when an array is declared, a base amount of contiguous memory is allocated as the array storage. But instead of keeping a reference to **all** the memory allocated for an arrary, the array only has to store the address of the first location.
+    * Using the first location, the array can calculate the address of any value in the array by using the index position of that value as an offset.
+
+
+
 ## ARRAY SEARCH, INSERT AND DELETE
 
 ## OPERATIONS ON ARRAYS

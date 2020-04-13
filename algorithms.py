@@ -1,3 +1,4 @@
+'''
 # Linear Search Algorithm
 
 def linear_search(list, target):
@@ -70,3 +71,21 @@ verify_recursive(result)
 
 result = recusive_binary_search(numbers, 5)
 verify_recursive(result)
+'''
+### Arrays
+new_list = [1, 2, 3] 
+
+# 1. This allocates a base amount of memory for the array/Python list to use.
+
+# 2. Since this is Python, the values aren't stored in memory. 
+#    Instead, the values 1, 2. and 3 are stored elsewhere in memory.
+#    And the array stores references to each of those objects.
+
+# 3. To access a value, use a subscript along with an index value.
+
+
+result = new_list[0] # The square brackets are the subscript
+
+# 4. Accessing is a constant time operation on an array/Python list.
+#    Because the array has a reference to the base location in memory and the memory is contiguous, we don't have to iterate over the entire list.
+#    For this reason, accessing is a constant time operation on an array/Python list.
