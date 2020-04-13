@@ -66,7 +66,7 @@ This adds overhead which increases the runtime of common operations.
 
 ```
 Python defines both an array and a list type and while they look and feel similar to one another they have their own uses.  
-The array.array class in Python is a thin [wrapper](https://stackoverflow.com/a/889178/1071846) around a C array and this introduces some limitations.  
+The array.array class in Python is a thin wrapper around a C array and this introduces some limitations.  
 For example, Python arrays are homogeneous and can only hold data of a single kind.  
 The type does take up much less space in memory than Python lists however so in general you would use an array if space was a concern or if you wanted to expose some C functionality.
 
@@ -83,6 +83,23 @@ Array is an Object type with special constructor and accessor methods.  Its prot
 JavaScript arrays are heterogeneous, meaning the types of elements are not fixed and neither is the size.  
 Arrays in JavaScript are not contiguous data structures and the data stored in the array can be located in a non-contiguous location.
 
+There are several ways to create an array:
+
+var arr = new Array(1);
+var arr = Array(1);
+var arr = [1];
+
+Since arrays are regular JavaScript objects with syntactic sugar there are some nuances to their behavior.  
+Creating a new array does not allocate any memory and the size of an array and its corresponding length are not always the same.
+
+Consider the following snippet:
+
+var values = [];
+values[0] = 1;
+values[9] = 2;
+
+Here an array has been created and two values have been inserted at index positions 0 and 9.  
+The length of the array here is actually 10, even through there are only 2 elements in the array.
 ```
 
 ## ACCESSING A VALUE IN AN ARRAY
