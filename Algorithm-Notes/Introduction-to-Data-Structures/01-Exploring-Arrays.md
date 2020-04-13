@@ -52,8 +52,8 @@ An array is a contiguous data structure.
 ### Contiguous Memory
 Blocks of memory situated right beside each other with no gaps.
 
-In a _noncontiguous_ data structure, the structure stores a values as well as a **reference** to where the next value is. 
-To retrieve that next value the langage has to follow that reference (pointer) to the next block of memeory. 
+In a _noncontiguous_ data structure, the structure stores a values as well as a **reference** to where the next value is.  
+To retrieve that next value the langage has to follow that reference (pointer) to the next block of memeory.  
 This adds overhead which increases the runtime of certain operations. 
 
 ## ARRAY CHARACTERISTICS AND STORAGE
