@@ -56,11 +56,17 @@ In a _noncontiguous_ data structure, the structure stores a values as well as a 
 To retrieve that next value the langage has to follow that reference (pointer) to the next block of memeory.  
 This adds overhead which increases the runtime of common operations.
 
-* In languages where arrays are homogeneous, when an array is created, **because the value is know to the language compiler**, the language can choose a contiguous block of memory that fits the arrays size and values created.
+* In languages where arrays are homogeneous, when an array is created, **because the value is know to the language compiler**, the language can choose a contiguous block of memory that fits the array's size and values created.
 
-* In languages where arrays are heterogeneous, when an array is created, the language allocates contiguous memory and storing in it, not the values, but a reference to the value that's stored elsewhere in memory. 
+* In languages where arrays are heterogeneous, when an array is created, the language allocates contiguous memory and stores in it, not the values, but a reference to the value that's stored elsewhere in memory. 
 
 ## ARRAY CHARACTERISTICS AND STORAGE
+
+### PYTHON:
+
+<kbd>Python defines both an array and a list type and while they look and feel similar to one another they have their own uses. The array.array class in Python is a thin wrapper around a C array and this introduces some limitations. For example, Python arrays are homogeneous and can only hold data of a single kind. The type does take up much less space in memory than Python lists however so in general you would use an array if space was a concern or if you wanted to expose some C functionality.
+
+As mentioned in the course, Python lists are the more frequently used type and the de facto representation of an array like structure. They are a heterogeneous and contiguous data structure.</kbd>
 
 ## ACCESSING A VALUE IN AN ARRAY
 
