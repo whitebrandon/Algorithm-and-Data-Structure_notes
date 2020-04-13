@@ -31,10 +31,10 @@ PY CODE by Brandon White | white.brandonsean@gmail.com
 ### What is a [Data Structure](https://en.wikipedia.org/wiki/Data_structure)?
 A data storage format. It is the collection of values and the format they are stored in, the relationships between the values in the collection as well as the operations applied on the data stored in the structure.
 
-In languages like Swift and Java, arrays are **homogeneous structures**, which means they __can only contain values of the same type__. 
+In languages like Swift and Java, arrays are **homogeneous structures**, which means they _can only contain values of the same type_. 
   * If you use an array to store integers in Java, it can **only** store integers.
 
-In other languages like Python and JavaScript, arrays are heterogeneous structures, which means they can contain values of different types.
+In other languages like Python and JavaScript, arrays are **heterogeneous structures**, which means they _can contain values of different types_.
 
 The fundamental concept of the array is the index. 
 
