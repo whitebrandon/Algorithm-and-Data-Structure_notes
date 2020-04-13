@@ -16,10 +16,10 @@ PY CODE by Brandon White | white.brandonsean@gmail.com
 6. Explore what motivates us to build specific types of structures
 7. Expore the pros and cons of those structures
 8. Explore four common operations:
-  1. Accessing a value
-  2. Searching for a value
-  3. Inserting a value
-  4. Deleting a value
+    1. Accessing a value
+    2. Searching for a value
+    3. Inserting a value
+    4. Deleting a value
 9. Explore how the choice of data structure potentially influences the run tim of an algorithm
 
 ## ARRAY BASICS
