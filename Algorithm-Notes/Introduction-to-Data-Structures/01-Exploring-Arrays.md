@@ -26,26 +26,35 @@ PY CODE by Brandon White | white.brandonsean@gmail.com
 
 [Arrays](https://en.wikipedia.org/wiki/Array_data_structure) are a fundamental data structure and can be used to represent a collection of values.
 
-#### **Arrays can be used as building blocks to create even more custom data types and structures**.
+#### **Arrays are used as building blocks to create even more custom data types and structures**.
+  * A **string**, in most programming languages, is just a bunch of characters stored in a particular order in an array.
 
 ### What is a [Data Structure](https://en.wikipedia.org/wiki/Data_structure)?
-A data storage format. It is the collection of values and the format they are stored in, the relationships between the values in the collection as well as the operations applied on the data stored in the structure.
+A way of storing data when programming. It is the collection of values and the format they are stored in, the relationships between the values in the collection as well as the operations applied on the data stored in the structure.
+  * In general, a collection of values where each value is referenced using an index (or key).
 
 In languages like Swift and Java, arrays are **homogeneous structures**, which means they _can only contain values of the same type_. 
   * If you use an array to store integers in Java, it can **only** store integers.
 
 In other languages like Python and JavaScript, arrays are **heterogeneous structures**, which means they _can contain values of different types_.
 
-The fundamental concept of the array is the index. 
+The fundamental concept of the array is the index. It is used for every operation on the array.
+  * Accessing values
+  * Inserting values
+  * Updating values
+  * Deleting values
 
-In Python an array is best represented as a list. In computer science a list is actually a different structure than an array, generally those this structure is called a linked list.
+In Python an array is best represented as a **list**. 
+  * **NOTE**: In computer science a list is actually a different structure than an array, generally it is called a **linked list**.
 
-And array is a contiguous data structure. In a noncontiguous data structure, the sturcture stores a values as well as a reference to where the next value is. To retrieve that next value the langage has to follow that reference (pointer) to the next block of memeory. This adds overhead which increases the runtime of certain operations. 
-
-When an array is created, 
+An array is a contiguous data structure. 
 
 ### Contiguous Memory
-Blocks of memore situated right beside each other with no gaps.
+Blocks of memory situated right beside each other with no gaps.
+
+In a _noncontiguous_ data structure, the structure stores a values as well as a **reference** to where the next value is. 
+To retrieve that next value the langage has to follow that reference (pointer) to the next block of memeory. 
+This adds overhead which increases the runtime of certain operations. 
 
 ## ARRAY CHARACTERISTICS AND STORAGE
 
