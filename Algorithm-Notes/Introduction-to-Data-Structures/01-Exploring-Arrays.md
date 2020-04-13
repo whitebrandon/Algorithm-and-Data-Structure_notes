@@ -12,21 +12,21 @@ PY CODE by Brandon White | white.brandonsean@gmail.com
 2. Learn what the common operations of an array are
 3. Learn what the run times associated with those common operations are
 4. Build a data type called a linked list
-5. There's more than one way to store data
+5. Explore ways to store data
 6. Explore what motivates us to build specific types of structures
 7. Expore the pros and cons of those structures
 8. Explore four common operations:
-  * Accessing a value
-  * Searching for a value
-  * Inserting a value
-  * Deleting a value
+  1. Accessing a value
+  2. Searching for a value
+  3. Inserting a value
+  4. Deleting a value
 9. Explore how the choice of data structure potentially influences the run tim of an algorithm
 
 ## ARRAY BASICS
 
 [Arrays](https://en.wikipedia.org/wiki/Array_data_structure) are a fundamental data structure and can be used to represent a collection of values.
 
-##### **Arrays can be used as building blocks to create even more custom data types and structures**.
+#### **Arrays can be used as building blocks to create even more custom data types and structures**.
 
 ### What is a [Data Structure](https://en.wikipedia.org/wiki/Data_structure)?
 A data storage format. It is the collection of values and the format they are stored in, the relationships between the values in the collection as well as the operations applied on the data stored in the structure.
